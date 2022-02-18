@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+  display: none !important;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+  display: none !important;
+}
+.carousel-item img {
+  object-fit: cover;
+}
+.image_height{
+  height: 95vh;
+}
+.card_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login_container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_form {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+}
+.column-1 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.column_1_text h2 {
+  font-size: 3rem;
+}
+.column-2 {
+  position: relative;
+}
+.column-2:after {
+  position: absolute;
+  height: 70%;
+  content: "";
+  width: .5%;
+  top: 15%;
+  left: -1px;
+  background: #dbdbdb;
+  border-radius: 10px;
+}
+.sidebar {
+  height: 100vh;
+}
+.griD {
+  height: 90vh;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.offcanvas-start {
+  top: 0;
+  left: 0;
+  width: 300px !important;
+  border-right: 1px solid rgba(0,0,0,.2);
+  transform: translateX(-100%);
+}
+section.banner {
+  background: #2b4378;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+.custom {
+  background: #2b4378;
+}
+.banner_img {
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+section.footer {
+  background: #2b4378;
+  padding-top: 8rem;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  color: white;
+}
+i.me-3.fas.fa-cart-plus {
+  color: #ff00f7;
+}
+i.me-3.fs-5.fas.fa-users {
+  color: #00d12d;
+}
+i.me-3.fs-5.fas.fa-envelope {
+  color: #00e7ff;
+}
+i.me-3.fs-5.fas.fa-clipboard-list {
+  color: #a900ff;
+}

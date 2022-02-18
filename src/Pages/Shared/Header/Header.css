@@ -1,0 +1,10 @@
+.bg-neavy{
+    background: rgb(73, 73, 73);
+    /* color: rgb(185, 185, 11); */
+}
+.cropedArea{
+    clip-path: polygon(3% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.bg-liteYellow{
+    background: rgb(197, 194, 2);
+}
